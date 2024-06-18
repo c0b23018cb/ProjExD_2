@@ -57,7 +57,7 @@ def main():
             return  # ゲームオーバー
         screen.blit(bg_img, [0, 0])
         txt = font.render(str(tmr/50), True, (255, 255, 255))
-        screen.blit(txt, [20,50])
+        screen.blit(txt, [100,100])
 
         key_lst = pg.key.get_pressed()
         sum_mv = [0, 0]
